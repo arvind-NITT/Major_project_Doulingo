@@ -10,22 +10,18 @@ const Want_to_learn = () => {
       <div class="container text-center">
         <div class="row">
           <div class="col border ">
-            
             <div>
-                 <img src={flag1} alt="" />
+              <img src={flag1} alt="" />
             </div>
             <div>
-                <h5>Spanish</h5>
-
+              <h5>Spanish</h5>
             </div>
           </div>
           <div class="col">col</div>
           <div class="col">col</div>
           <div class="col">col</div>
         </div>
-        <div class="row">
-          
-        </div>
+        <div class="row"></div>
       </div>
     </div>
   );

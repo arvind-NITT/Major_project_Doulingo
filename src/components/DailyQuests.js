@@ -18,7 +18,7 @@ const DailyQuests = () => {
         Earn 10 XP
 
         <div className='scorebar'>
-          <span className='col-12 text-secondary text-center ' style={{marginTop:'-3px'}}>0/10</span>
+          <span className='col-12 text-secondary text-center ' style={{marginTop:'-3px',marginRight:'-5px'}}>0/10</span>
    <img className='d-flex align-self-end' src={MySVboxG} alt="" />
          
         </div>

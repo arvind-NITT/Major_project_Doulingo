@@ -12,14 +12,11 @@ const Leaderboards = () => {
         <h2 className="letter_Head">Unlock Leaderboards!</h2>
 
         <h5 className="letter_Head_below fw-sm m-1">
-        Complete 10 more lessons to start competing
+          Complete 10 more lessons to start competing
         </h5>
         <div className="large_buttons m-1">
           <div className=" d-grid ">
-            <button
-              type="button col-6"
-              class="btn light_blue_button btn-lg "
-            >
+            <button type="button col-6" class="btn light_blue_button btn-lg ">
               START A LESSON
             </button>
           </div>
@@ -27,7 +24,7 @@ const Leaderboards = () => {
       </div>
 
       <div className="w-100 ">
-         <img style={{width:"100%"}} src={MySVboxss} alt="" />
+        <img style={{ width: "100%" }} src={MySVboxss} alt="" />
       </div>
     </div>
   );
