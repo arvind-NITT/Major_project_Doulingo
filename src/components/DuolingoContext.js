@@ -11,10 +11,10 @@ export const useDuolingoContext = () => {
 
 export const DuoProvider = ({ children }) => {
 
-       const [active_component,set_active_component]= useState(0);
+       const [activeComponent,setActiveComponent]= useState(0);
 
     return (
-        <MyContext.Provider value={{ active_component,set_active_component }}>
+        <MyContext.Provider value={{ activeComponent,setActiveComponent }}>
             {children}
         </MyContext.Provider>
     )

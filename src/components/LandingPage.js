@@ -2,7 +2,7 @@ import React from "react";
 import doulogo from "../images/f92d5f2f7d56636846861c458c0d0b6c.svg";
 import douImg from "../images/Screenshot2024-10-042.png";
 import { Link } from "react-router-dom";
-const Landing_page = () => {
+const LandingPage = () => {
   return (
     <div className="bg-white vw-100 vh-100 ff">
       <nav class="navbar bg-body-tertiary">
@@ -81,4 +81,4 @@ const Landing_page = () => {
   );
 };
 
-export default Landing_page;
+export default LandingPage;

@@ -1,18 +1,18 @@
 import React from 'react'
-import Unlock_Leaderboards from './Unlock_Leaderboards'
+import Unlock_Leaderboards from './UnlockLeaderboards'
 import DailyQuests from './DailyQuests'
 import CreateProfile from './CreateProfile'
-import Small_Right_Bottom_Navbar from './Small_Right_Bottom_Navbar'
-import Small_Right_Top_details from './Small_Right_Top_details'
+import SmallRightBottomNavbar from './SmallRightBottomNavbar'
+import SmallRightTopDetails from './SmallRightTopDetails'
 
 const RightSideBar = () => {
   return (
     <div className='h-100 position-sticky top-0 end-0'>
-      <Small_Right_Top_details/>
+      <SmallRightTopDetails/>
       <Unlock_Leaderboards/>
       <DailyQuests/>
       <CreateProfile/>
-      <Small_Right_Bottom_Navbar/>
+      <SmallRightBottomNavbar/>
     </div>
   )
 }

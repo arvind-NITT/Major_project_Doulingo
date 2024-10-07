@@ -12,7 +12,7 @@ import Duolingo_img from "../images/70a4be81077a8037698067f583816ff9.svg";
 import { useDuolingoContext } from "./DuolingoContext";
 
 const Navbar = () => {
-  const { set_active_component } = useDuolingoContext();
+  const { setActiveComponent } = useDuolingoContext();
 
   return (
     <div className="container position-sticky top-0">
@@ -31,15 +31,15 @@ const Navbar = () => {
       <ul className="nav NavForHalfScreen col-12 w-100 flex-sm-row flex-lg-column h-100"
       //  style={{ width: "222px" }}
        >
-        <li className="nav-item nav_li" onClick={() => set_active_component(0)}>
-            <div className="nav_links">
+        <li className="nav-item nav_li" onClick={() => setActiveComponent(0)}>
           <Link className="text-decoration-none" to="/home">
+            <div className="nav_links">
               <img className="navlinks_img" src={Learn_img} alt="Learn" />
               <span className="navlinks_text">Learn</span>
-          </Link>
             </div>
+          </Link>
         </li>
-        <li className="nav-item nav_li" onClick={() => set_active_component(1)}>
+        <li className="nav-item nav_li" onClick={() => setActiveComponent(1)}>
           <Link className="text-decoration-none" to="/home">
             <div className="nav_links">
               <img className="navlinks_img" src={Letter_img} alt="Letters" />
@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
           </Link>
         </li>
-        <li className="nav-item nav_li" onClick={() => set_active_component(2)}>
+        <li className="nav-item nav_li" onClick={() => setActiveComponent(2)}>
           <Link className="text-decoration-none" to="/home">
             <div className="nav_links">
               <img
@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
           </Link>
         </li>
-        <li className="nav-item nav_li" onClick={() => set_active_component(3)}>
+        <li className="nav-item nav_li" onClick={() => setActiveComponent(3)}>
           <Link className="text-decoration-none" to="/home">
             <div className="nav_links">
               <img className="navlinks_img" src={Quests_img} alt="Quests" />

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-const Small_Right_Bottom_Navbar = () => {
+const SmallRightBottomNavbar = () => {
   return (
     <div class="container  rounded-4 p-3 m-2 w-75 text-center ">
       <div class="row m-1">
@@ -19,7 +19,7 @@ const Small_Right_Bottom_Navbar = () => {
   );
 };
 
-export default Small_Right_Bottom_Navbar;
+export default SmallRightBottomNavbar;
 
 
 

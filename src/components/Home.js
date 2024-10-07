@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import Letters from "./Letters";
 import RightSideBar from "./RightSideBar";
@@ -7,7 +7,7 @@ import Quests from "./Quests";
 import { useDuolingoContext } from "./DuolingoContext";
 import Leaderboards from "./Leaderboards";
 const Home = () => {
-  const { set_active_component, active_component } = useDuolingoContext();
+  const { activeComponent } = useDuolingoContext();
   return (
     <div className="min-vw-100 w-100 h-100 d-flex justify-content-between">
       <div class="d-flex w-100 container_for_home">
@@ -18,10 +18,10 @@ const Home = () => {
           <Navbar />
         </div>
         <div class="p-2 flex-grow-1 container">
-          {active_component === 0 && <Learn />}
-          {active_component === 1 && <Letters />}
-          {active_component === 2 && <Leaderboards />}
-          {active_component === 3 && <Quests />}
+          {activeComponent === 0 && <Learn />}
+          {activeComponent === 1 && <Letters />}
+          {activeComponent === 2 && <Leaderboards />}
+          {activeComponent === 3 && <Quests />}
           
         </div>
         <div class="p-2 col-4  rightsidebar-container ">
